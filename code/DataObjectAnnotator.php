@@ -19,12 +19,12 @@ class DataObjectAnnotator extends Object
     /**
      * This string marks the beginning of a generated annotations block
      */
-    const STARTTAG = 'StartGeneratedWithDataObjectAnnotator';
+    const STARTTAG = '============================================================== (generated)';
 
     /**
      * This string marks the end of a generated annotations block
      */
-    const ENDTAG = 'EndGeneratedWithDataObjectAnnotator';
+    const ENDTAG = '============================================================== (/generated)';
 
     /**
      * @config
